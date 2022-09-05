@@ -1,1 +1,0 @@
-SELECT max(APPROXIMATECREATIONDATETIME) FROM {{ 'stg_nir_buchnik_stream_attachments' }}
