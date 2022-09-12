@@ -16,7 +16,8 @@ with org_data as (
     org_data.S3KEY,
     org_data.ATTACHMENTID,
     org_data.TYPE,
-    org_data.ANNOTATION
+    org_data.ANNOTATION,
+    null as state
 
 
 from "NIRSTREAMTEST01"."DBT_NIR"."STREAM_NIR_ABUCHNICKTHAI_AIOLA_INSPECTION_ATTACHMENTS_TABLE" as org_data
