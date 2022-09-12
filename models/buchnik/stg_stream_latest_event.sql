@@ -19,7 +19,8 @@ select
     stg_stream.S3KEY,
     stg_stream.ATTACHMENTID,
     stg_stream.TYPE,
-    stg_stream.ANNOTATION
+    stg_stream.ANNOTATION,
+    stg_stream.state
 
  from {{ ref('stg_nir_buchnik_stream_attachments') }} as stg_stream
 right join max_event_time 

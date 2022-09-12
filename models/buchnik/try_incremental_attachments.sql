@@ -4,15 +4,6 @@
     )
 }}
 
-/*
-WITH fake_data AS (
-    'fake_itemid' as ITEMID,
-    'fake_s3key' as S3KEY,
-    'fake_ATTACHMENTID' as ATTACHMENTID,
-    'fake_type' as type,
-    'fake_ANNOTATION' as ANNOTATION
-)
-*/
 
 select 
     org_data.ITEMID,
